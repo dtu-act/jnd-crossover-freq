@@ -32,7 +32,7 @@
     <a name="abstract"></a>
 
     Simulating room acoustics using numerical methods for solving the underlying wave equation yields accurate results,
-    but becomes intractable for higher frequencies due to expensive computations. On the contrary, geometrical acoustics
+    but becomes intractable for higher frequencies due to expensive computations. On the contrary, GA
     methods are efficient but are only considered accurate well above the Schroeder frequency. By combining the two
     methods, the full human auditory frequency range can be modeled, but two main question remains: <i>how should the
         cross-over frequency between the two methods be determined</i> and <i>how do the room conditions influence the
@@ -48,13 +48,16 @@
 
     These results are preliminary.
 
+    <p>
+    GA - Geometrical Acoustics
+
     <h3>Rectangular room</h3>
     <h4>Clap</h4>
     <table>
         <tr>
             <th></th>
             <th>DG-FEM</th>
-            <th>ODEON</th>
+            <th>GA</th>
         </tr>
         <tr>
             <td>r2</td>
@@ -64,7 +67,7 @@
                     type="audio/mpeg"> </audio></td>
         <td><audio controls preload="none">
                 <source
-                    src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_clap_20hz_4000hz_01_ODEON.wav"
+                    src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_clap_20hz_4000hz_01_GA.wav"
                     type="audio/mpeg"> </audio></td>
         </tr>
     </table>
@@ -73,7 +76,7 @@
         <tr>
             <th></th>
             <th>DG-FEM</th>
-            <th>ODEON</th>
+            <th>GA</th>
         </tr>
         <tr>
             <td>r1</td>
@@ -83,7 +86,7 @@
                         type="audio/mpeg"> </audio></td>
             <td><audio controls preload="none">
                     <source
-                        src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_drums_lofi_20hz_4000hz_00_ODEON.wav"
+                        src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_drums_lofi_20hz_4000hz_00_GA.wav"
                         type="audio/mpeg"> </audio></td>
         </tr>
         <tr>
@@ -94,7 +97,7 @@
                     type="audio/mpeg"> </audio></td>
         <td><audio controls preload="none">
                 <source
-                    src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_drums_lofi_20hz_4000hz_01_ODEON.wav"
+                    src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_drums_lofi_20hz_4000hz_01_GA.wav"
                     type="audio/mpeg"> </audio></td>
         </tr>
     </table>
@@ -104,21 +107,21 @@
         <tr>
             <th></th>
             <th>DG-FEM</th>
-            <th>ODEON</th>
+            <th>GA</th>
         </tr>
         <tr>
             <td>r1</td>
             <td><audio controls preload="none">
                     <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_synth_ambient_20hz_4000hz_00_DG.wav" type="audio/mpeg"> </audio></td>
             <td><audio controls preload="none">
-                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_synth_ambient_20hz_4000hz_00_ODEON.wav" type="audio/mpeg"> </audio></td>
+                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_synth_ambient_20hz_4000hz_00_GA.wav" type="audio/mpeg"> </audio></td>
         </tr>
         <tr>
             <td>r2</td>
             <td><audio controls preload="none">
                     <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_synth_ambient_20hz_4000hz_01_DG.wav" type="audio/mpeg"> </audio></td>
             <td><audio controls preload="none">
-                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_synth_ambient_20hz_4000hz_01_ODEON.wav" type="audio/mpeg"> </audio></td>
+                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_synth_ambient_20hz_4000hz_01_GA.wav" type="audio/mpeg"> </audio></td>
         </tr>
     </table>
 
@@ -127,21 +130,21 @@
         <tr>
             <th></th>
             <th>DG-FEM</th>
-            <th>ODEON</th>
+            <th>GA</th>
         </tr>
         <tr>
             <td>r1</td>
             <td><audio controls preload="none">
                     <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_synth_bass_20hz_4000hz_00_DG.wav" type="audio/mpeg"> </audio></td>
             <td><audio controls preload="none">
-                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_synth_bass_20hz_4000hz_00_ODEON.wav" type="audio/mpeg"> </audio></td>
+                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_synth_bass_20hz_4000hz_00_GA.wav" type="audio/mpeg"> </audio></td>
         </tr>
         <tr>
             <td>r2</td>
             <td><audio controls preload="none">
                 <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_synth_bass_20hz_4000hz_01_DG.wav" type="audio/mpeg"> </audio></td>
         <td><audio controls preload="none">
-                <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_synth_bass_20hz_4000hz_01_ODEON.wav" type="audio/mpeg"> </audio></td>
+                <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/bedroom_synth_bass_20hz_4000hz_01_GA.wav" type="audio/mpeg"> </audio></td>
         </tr>
     </table>
 
@@ -151,14 +154,14 @@
         <tr>
             <th></th>
             <th>DG-FEM</th>
-            <th>ODEON</th>
+            <th>GA</th>
         </tr>
         <tr>
             <td>r1</td>
             <td><audio controls preload="none">
                     <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/studio_drums_lofi_20hz_6000hz_00_DG.wav" type="audio/mpeg"> </audio></td>
             <td><audio controls preload="none">
-                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/studio_drums_lofi_20hz_6000hz_00_ODEON.wav" type="audio/mpeg"> </audio></td>
+                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/studio_drums_lofi_20hz_6000hz_00_GA.wav" type="audio/mpeg"> </audio></td>
         </tr>
     </table>
 
@@ -167,14 +170,14 @@
         <tr>
             <th></th>
             <th>DG-FEM</th>
-            <th>ODEON</th>
+            <th>GA</th>
         </tr>
         <tr>
             <td>r1</td>
             <td><audio controls preload="none">
                     <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/studio_synth_ambient_20hz_6000hz_00_DG.wav" type="audio/mpeg"> </audio></td>
             <td><audio controls preload="none">
-                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/studio_synth_ambient_20hz_6000hz_00_ODEON.wav" type="audio/mpeg"> </audio></td>
+                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/studio_synth_ambient_20hz_6000hz_00_GA.wav" type="audio/mpeg"> </audio></td>
         </tr>
     </table>
 
@@ -183,14 +186,14 @@
         <tr>
             <th></th>
             <th>DG-FEM</th>
-            <th>ODEON</th>
+            <th>GA</th>
         </tr>
         <tr>
             <td>r1</td>
             <td><audio controls preload="none">
                     <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/studio_synth_bass_20hz_6000hz_00_DG.wav" type="audio/mpeg"> </audio></td>
             <td><audio controls preload="none">
-                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/studio_synth_bass_20hz_6000hz_00_ODEON.wav" type="audio/mpeg"> </audio></td>
+                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/studio_synth_bass_20hz_6000hz_00_GA.wav" type="audio/mpeg"> </audio></td>
         </tr>
     </table>
 
@@ -200,21 +203,21 @@
         <tr>
             <th></th>
             <th>DG-FEM</th>
-            <th>ODEON</th>
+            <th>GA</th>
         </tr>
         <tr>
             <td>r1</td>
             <td><audio controls preload="none">
                     <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_drums_lofi_20hz_4000hz_00_DG.wav" type="audio/mpeg"> </audio></td>
             <td><audio controls preload="none">
-                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_drums_lofi_20hz_4000hz_00_ODEON.wav" type="audio/mpeg"> </audio></td>
+                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_drums_lofi_20hz_4000hz_00_GA.wav" type="audio/mpeg"> </audio></td>
         </tr>
         <tr>
             <td>r4</td>
             <td><audio controls preload="none">
                     <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_drums_lofi_20hz_4000hz_03_DG.wav" type="audio/mpeg"> </audio></td>
             <td><audio controls preload="none">
-                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_drums_lofi_20hz_4000hz_03_ODEON.wav" type="audio/mpeg"> </audio></td>
+                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_drums_lofi_20hz_4000hz_03_GA.wav" type="audio/mpeg"> </audio></td>
         </tr>
     </table>
 
@@ -223,21 +226,21 @@
         <tr>
             <th></th>
             <th>DG-FEM</th>
-            <th>ODEON</th>
+            <th>GA</th>
         </tr>
         <tr>
             <td>r1</td>
             <td><audio controls preload="none">
                     <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_synth_ambient_20hz_4000hz_00_DG.wav" type="audio/mpeg"> </audio></td>
             <td><audio controls preload="none">
-                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_synth_ambient_20hz_4000hz_00_ODEON.wav" type="audio/mpeg"> </audio></td>
+                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_synth_ambient_20hz_4000hz_00_GA.wav" type="audio/mpeg"> </audio></td>
         </tr>
         <tr>
             <td>r4</td>
             <td><audio controls preload="none">
                     <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_synth_ambient_20hz_4000hz_03_DG.wav" type="audio/mpeg"> </audio></td>
             <td><audio controls preload="none">
-                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_synth_ambient_20hz_4000hz_03_ODEON.wav" type="audio/mpeg"> </audio></td>
+                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_synth_ambient_20hz_4000hz_03_GA.wav" type="audio/mpeg"> </audio></td>
         </tr>
     </table>
 
@@ -246,21 +249,21 @@
         <tr>
             <th></th>
             <th>DG-FEM</th>
-            <th>ODEON</th>
+            <th>GA</th>
         </tr>
         <tr>
             <td>r1</td>
             <td><audio controls preload="none">
                     <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_synth_bass_20hz_4000hz_00_DG.wav" type="audio/mpeg"> </audio></td>
             <td><audio controls preload="none">
-                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_synth_bass_20hz_4000hz_00_ODEON.wav" type="audio/mpeg"> </audio></td>
+                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_synth_bass_20hz_4000hz_00_GA.wav" type="audio/mpeg"> </audio></td>
         </tr>
         <tr>
             <td>r4</td>
             <td><audio controls preload="none">
                     <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_synth_bass_20hz_4000hz_03_DG.wav" type="audio/mpeg"> </audio></td>
             <td><audio controls preload="none">
-                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_synth_bass_20hz_4000hz_03_ODEON.wav" type="audio/mpeg"> </audio></td>
+                    <source src="https://jnd-crossover-freq.s3.eu-north-1.amazonaws.com/results/Lshape_synth_bass_20hz_4000hz_03_GA.wav" type="audio/mpeg"> </audio></td>
         </tr>
     </table>
 
